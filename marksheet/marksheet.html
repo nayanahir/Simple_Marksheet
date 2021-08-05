@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    
+    <center>
+        <table border="2px" style="text-align: center;">
+
+            <tr>
+                <td colspan="2">
+                    <center>
+                        <h3 style="text-decoration: underline;">Marksheet</h3>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left; color: red;">
+                    *Require
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label id="lbl1">Sub1:-</label>
+                </td>
+                <td>
+                    <input type="text" name="sub1" id="sub1" placeholder="Enter Your subject-1 marks">
+                    <label id="grace1"></label>
+                    <span id="span" style="color: red;">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label id="lbl2">Sub2:-</label>
+                </td>
+                <td>
+                    <input type="text" name="sub2" id="sub2" placeholder="Enter Your subject-2 marks">
+                    <label id="grace2"></label>
+                    <span id="span" style="color: red;">*</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label id="lbl3">Sub3:-</label>
+                </td>
+                <td>
+                    <input type="text" name="sub3" id="sub3" placeholder="Enter Your subject-3 marks">
+                    <label id="grace3"></label>
+                    <span id="span" style="color: red;">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label id="lbl4">Sub4:-</label>
+                </td>
+                <td>
+                    <input type="text" name="sub4" id="sub4" placeholder="Enter Your subject-4 marks">
+                    <label id="grace4"></label>
+                    <span id="span" style="color: red;">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td><label id="lbl5">Sub5:-</label></td>
+                <td><input type="text" name="sub5" id="sub5" placeholder="Enter Your subject-5 marks">
+                    <label id="grace5"></label>
+                    <span id="span" style="color: red;">*</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button id="btn1" name="btn1" onclick="btn1click()" type="button">Calculate</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    Total:- <label id="lbltotal"></label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    Percentage:- <label id="lblpr"></label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: left;">
+                    Grade:- <label id="lblgrade"></label>
+                </td>
+            </tr>
+        </table>
+
+    </center>
+<!-- javascript -->
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>
